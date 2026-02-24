@@ -12,10 +12,9 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-white font-bold">🐔</span>
+              <div className="w-40 h-10  flex items-center justify-center">
+                  <img className="text-white font-bold text-lg" src='/images/logo.png'/>
               </div>
-              <span className="font-bold text-lg">AGripina</span>
             </Link>
             <p className="text-white/70 text-sm leading-relaxed">
               Qualidade que nasce da confiança. Liderança em produção avícola sustentável.
@@ -89,7 +88,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="text-white/70">
                 <p className="font-medium text-white mb-1">Telefone</p>
-                <a href="tel:+55999999999" className="hover:text-primary transition-colors">
+                <a href="tel:+244923202020" className="hover:text-primary transition-colors">
                   +244 923 20 20 20
                 </a>
               </li>
@@ -106,7 +105,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
         {/* Divider */}
         <div className="border-t border-white/10 mb-8" />
 

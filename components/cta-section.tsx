@@ -15,7 +15,7 @@ export default function CTASection() {
             </p>
 
             <div className="space-y-4">
-              <a href="tel:+55999999999" className="flex items-center gap-3 hover:translate-x-1 transition-transform duration-300">
+              <a href="tel:+2449232020" className="flex items-center gap-3 hover:translate-x-1 transition-transform duration-300">
                 <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center">
                   <Phone size={20} />
                 </div>
@@ -41,10 +41,10 @@ export default function CTASection() {
           {/* Right Content - Features */}
           <div className="grid grid-cols-2 gap-6">
             {[
-              { label: 'Anos de Experiência', value: '25+' },
-              { label: 'Produtos Diferentes', value: '15+' },
-              { label: 'Estados Atendidos', value: '18' },
-              { label: 'Satisfação Clientes', value: '99%' },
+              { label: 'Anos de Experiência', value: '10+' },
+              { label: 'Produtos Diferentes', value: '3+' },
+              { label: 'Províncias Atendidas', value: '3' },
+              { label: 'Satisfação Clientes', value: '98%' },
             ].map((stat, index) => (
               <div
                 key={index}

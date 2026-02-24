@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <main>
       <Header />
-      
+
       {/* Hero Section */}
       <section className="pt-40 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-primary/5 to-background">
         <div className="max-w-7xl mx-auto text-center">
@@ -21,7 +21,7 @@ export default function AboutPage() {
       </section>
 
       {/* History Timeline */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      {/* <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Evolução da AGripina</h2>
           
@@ -68,13 +68,78 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-muted/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-foreground mb-16 text-center">
+            Evolução da AGripina
+          </h2>
 
+          <div className="relative">
+            {/* Linha vertical central */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-primary/30"></div>
+
+            {[
+              {
+                year: '1998',
+                title: 'Fundação',
+                description:
+                  'AGripina é fundada como uma pequena propriedade familiar focada em produção de ovos de qualidade.',
+              },
+              {
+                year: '2005',
+                title: 'Primeira Expansão',
+                description:
+                  'Implementação de técnicas modernas de produção e certificação ISO 9001.',
+              },
+              {
+                year: '2012',
+                title: 'Modernização Tecnológica',
+                description:
+                  'Investimento em infraestrutura de ponta e sistemas automatizados de controle de qualidade.',
+              },
+              {
+                year: '2018',
+                title: 'Sustentabilidade em Foco',
+                description:
+                  'Expansão de linhas sustentáveis e implementação de práticas ecológicas avançadas.',
+              },
+              {
+                year: '2024',
+                title: 'Liderança Regional',
+                description:
+                  'Reconhecimento como uma das principais produtoras avícolas com alcance nacional.',
+              },
+            ].map((milestone, index) => (
+              <div
+                key={index}
+                className={`flex flex-col md:flex-row items-start md:items-center mb-16 w-full relative z-10 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''
+                  }`}
+              >
+                {/* Círculo com ano sobre a linha */}
+                <div className="flex-shrink-0 relative z-20">
+                  <div className="w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold shadow-lg">
+                    {milestone.year}
+                  </div>
+                </div>
+
+                {/* Card flutuando sobre a linha */}
+                <div className="md:max-w-md bg-white border border-border rounded-xl p-6 shadow-sm hover:shadow-md transition md:mx-8 mt-4 md:mt-0 text-center md:text-left relative z-20">
+                  <h3 className="text-xl font-bold text-foreground">{milestone.title}</h3>
+                  <p className="text-muted-foreground mt-2 leading-relaxed">
+                    {milestone.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       {/* Mission, Vision, Values */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-muted/30">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Missão, Visão e Valores</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
@@ -112,7 +177,7 @@ export default function AboutPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Infraestrutura e Equipe</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">Estrutura de Classe Mundial</h3>

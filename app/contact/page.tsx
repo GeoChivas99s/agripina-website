@@ -35,7 +35,7 @@ export default function ContactPage() {
   return (
     <main>
       <Header />
-      
+
       {/* Hero Section */}
       <section className="pt-40 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-primary/5 to-background">
         <div className="max-w-7xl mx-auto text-center">
@@ -57,7 +57,7 @@ export default function ContactPage() {
                 icon: Phone,
                 label: 'Telefone',
                 value: '+244 923 20 20 20',
-                href: 'tel:+55999999999',
+                href: 'tel:+2449232020',
               },
               {
                 icon: Mail,
@@ -223,7 +223,7 @@ export default function ContactPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-muted/30">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl font-bold text-foreground mb-8 text-center">Localização</h2>
-          <div className="rounded-xl overflow-hidden border border-border h-96 bg-muted flex items-center justify-center">
+          {/* <div className="rounded-xl overflow-hidden border border-border h-96 bg-muted flex items-center justify-center">
             <div className="text-center">
               <MapPin className="w-16 h-16 text-primary/30 mx-auto mb-4" />
               <p className="text-muted-foreground">
@@ -233,6 +233,17 @@ export default function ContactPage() {
                 Coordenadas: -21.5, -48.5
               </p>
             </div>
+          </div> */}
+          <div className="text-center border-1 rounded-xl">
+            <iframe
+              className='rounded-xl'
+              src="https://www.google.com/maps?q=-12.766175947869272, 15.741153274538757&z=12&output=embed"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              // allowFullScreen=""
+              loading="lazy"
+            ></iframe>
           </div>
         </div>
       </section>

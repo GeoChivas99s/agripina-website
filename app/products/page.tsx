@@ -7,7 +7,7 @@ export default function ProductsPage() {
     {
       name: 'Ovos Premium',
       category: 'Ovos',
-      image: '/images/eggs-premium.jpg',
+      image: '/images/card-egg.png',
       description: 'Ovos de qualidade excepcional, produzidos em conformidade com os mais altos padrões de bem-estar animal e segurança alimentar.',
       features: [
         'Sem resíduos de pesticidas',
