@@ -6,12 +6,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const slides = [
   {
-    image: '/images/hero-main.jpg',
+    image: '/images/chicken.jpeg',
     title: 'Qualidade que Nasce da Confiança',
     subtitle: 'Produção moderna de ovos e frangos com sustentabilidade',
   },
   {
-    image: '/images/eggs-premium.jpg',
+    image: '/images/agripina.png',
     title: 'Ovos Premium de Excelência',
     subtitle: 'Frescos, naturais e produzidos com cuidado',
   },
@@ -31,7 +31,7 @@ export default function HeroSlider() {
 
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length)
-    }, 6000)
+    }, 2500)
 
     return () => clearInterval(timer)
   }, [isAutoplay])

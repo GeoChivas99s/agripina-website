@@ -5,7 +5,7 @@ const products = [
   {
     id: 1,
     name: 'Ovos Premium',
-    image: '/images/eggs-premium.jpg',
+    image: '/images/card-egg.png',
     description: 'Ovos frescos e naturais de alta qualidade nutricional',
     features: ['Sem pesticidas', 'Colesterol reduzido', 'Sabor excepcional'],
   },
@@ -19,7 +19,7 @@ const products = [
   {
     id: 3,
     name: 'Derivados Avícolas',
-    image: '/images/sustainability.jpg',
+    image: '/images/agricola.jpg',
     description: 'Diversos produtos derivados de excelente qualidade',
     features: ['Produtos variados', 'Certificados', 'Disponíveis em estoque'],
   },
