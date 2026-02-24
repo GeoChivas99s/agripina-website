@@ -4,7 +4,8 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { useState } from 'react'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
-
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',

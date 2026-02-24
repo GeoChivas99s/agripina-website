@@ -3,7 +3,7 @@ import { Award, Leaf, Zap, Heart } from 'lucide-react'
 const highlights = [
   {
     icon: Award,
-    title: 'Qualidade Premium',
+    title: 'Qualidade ',
     description: 'Produção de excelência com rigoroso controle de qualidade em cada etapa',
   },
   {

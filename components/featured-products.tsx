@@ -4,14 +4,14 @@ import { ArrowRight } from 'lucide-react'
 const products = [
   {
     id: 1,
-    name: 'Ovos Premium',
+    name: 'Ovos ',
     image: '/images/card-egg.png',
     description: 'Ovos frescos e naturais de alta qualidade nutricional',
     features: ['Sem pesticidas', 'Colesterol reduzido', 'Sabor excepcional'],
   },
   {
     id: 2,
-    name: 'Frango Inteiro',
+    name: 'Frango ',
     image: '/images/chickens-modern.jpg',
     description: 'Frangos de corte selecionados e processados com cuidado',
     features: ['Carne tenra', 'Muito saudável', 'Rastreabilidade total'],
@@ -34,7 +34,7 @@ export default function FeaturedProducts() {
             Nossos <span className="text-primary">Produtos</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conheça a linha completa de produtos avícolas de qualidade premium
+            Conheça a linha completa de produtos avícolas de qualidade 
           </p>
         </div>
 

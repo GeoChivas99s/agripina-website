@@ -38,7 +38,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/contact"
+              href="https://api.whatsapp.com/send/?phone=244923609024&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+os+servi%C3%A7os+da+Zeytra+Tech.&type=phone_number&app_absent=0"
               className="px-6 py-2.5 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all duration-200 font-medium text-sm shadow-md hover:shadow-lg"
             >
               Fale Conosco

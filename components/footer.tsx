@@ -68,8 +68,8 @@ export default function Footer() {
             <h3 className="font-semibold mb-4 text-white">Produtos</h3>
             <ul className="space-y-2">
               {[
-                'Ovos Premium',
-                'Frango Inteiro',
+                'Ovos ',
+                'Frango ',
                 'Derivados Avícolas',
                 'Produtos Especiais',
               ].map((product) => (

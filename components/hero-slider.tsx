@@ -12,7 +12,7 @@ const slides = [
   },
   {
     image: '/images/agripina.png',
-    title: 'Ovos Premium de Excelência',
+    title: 'Ovos de Excelência',
     subtitle: 'Frescos, naturais e produzidos com cuidado',
   },
   {
@@ -31,7 +31,7 @@ export default function HeroSlider() {
 
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length)
-    }, 2500)
+    }, 2200)
 
     return () => clearInterval(timer)
   }, [isAutoplay])
