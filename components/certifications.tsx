@@ -22,7 +22,7 @@ const awards = [
   'Melhor Produtor de Ovos - Região 2023',
   'Prêmio Sustentabilidade - Agro Inovação 2022',
   'Certificação de Bem-estar Animal - OIE',
-  'Parceiro  - Distribuidoras Nacionais',
+  'Parceiro Premium - Distribuidoras Nacionais',
 ]
 
 export default function Certifications() {

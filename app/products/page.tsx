@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function ProductsPage() {
   const products = [
     {
-      name: 'Ovos ',
+      name: 'Ovos',
       category: 'Ovos',
       image: '/images/card-egg.png',
       description: 'Ovos de qualidade excepcional, produzidos em conformidade com os mais altos padrões de bem-estar animal e segurança alimentar.',
@@ -19,7 +19,7 @@ export default function ProductsPage() {
       ],
     },
     {
-      name: 'Frango  ',
+      name: 'Frango',
       category: 'Frangos',
       image: '/images/chickens-modern.jpg',
       description: 'Frangos de corte selecionados, processados com máximo cuidado e rastreabilidade desde a granja até o cliente.',
@@ -28,7 +28,7 @@ export default function ProductsPage() {
         'Processamento higiênico certificado',
         'Rastreabilidade 100% garantida',
         'Congelamento flash para preservar qualidade',
-        'Embalagem a vácuo ',
+        'Embalagem a vácuo premium',
         'Diferentes tamanhos disponíveis',
       ],
     },
@@ -59,7 +59,7 @@ export default function ProductsPage() {
             Nossos <span className="text-primary">Produtos</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Conheça a linha completa de produtos avícolas  da AGripina
+            Conheça a linha completa de produtos avícolas premium da AGripina
           </p>
         </div>
       </section>
@@ -111,7 +111,7 @@ export default function ProductsPage() {
                   </div>
 
                   <button className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 shadow-md hover:shadow-lg">
-                    
+                    Solicitar Orçamento
                   </button>
                 </div>
               </div>

@@ -33,7 +33,7 @@ export default function CTASection() {
                 <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center">
                   <MapPin size={20} />
                 </div>
-                <span className="font-medium">Interior de Huambo, Angola</span>
+                <span className="font-medium">Huambo, Angola</span>
               </div>
             </div>
           </div>

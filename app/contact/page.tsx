@@ -69,7 +69,7 @@ export default function ContactPage() {
               {
                 icon: MapPin,
                 label: 'Localização',
-                value: 'Interior de Huambo, Angola',
+                value: 'Huambo, Angola',
                 href: '#',
               },
               {
@@ -228,7 +228,7 @@ export default function ContactPage() {
             <div className="text-center">
               <MapPin className="w-16 h-16 text-primary/30 mx-auto mb-4" />
               <p className="text-muted-foreground">
-                Mapa interativo - Interior de Huambo, Angola
+                Mapa interativo - Huambo, Angola
               </p>
               <p className="text-sm text-muted-foreground mt-2">
                 Coordenadas: -21.5, -48.5
