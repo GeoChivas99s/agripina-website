@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -13,7 +14,14 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-40 h-10  flex items-center justify-center">
-                  <img className="text-white font-bold text-lg" src='/images/logo.png'/>
+
+                <Image
+                  src="../images/logo.png"
+                  alt="Tecnologia AGripina"
+                  width={500}
+                  height={400}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </Link>
             <p className="text-white/70 text-sm leading-relaxed">
@@ -68,7 +76,7 @@ export default function Footer() {
             <h3 className="font-semibold mb-4 text-white">Produtos</h3>
             <ul className="space-y-2">
               {[
-                'Ovos Premium',
+                'Ovos',
                 'Frango Inteiro',
                 'Derivados Avícolas',
                 'Produtos Especiais',
@@ -105,8 +113,18 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
+        <div className="w-40 flex items-center justify-center">
+          <Image
+            src="/images/SeloSFA.png"
+            alt="Tecnologia AGripina"
+            width={5}
+            height={5}
+            className="w-full h-auto object-cover"
+          />
+        </div>
         {/* Divider */}
-        <div className="border-t border-white/10 mb-8" />
+        <div className="border-top border-white/10 mb-8" />
 
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">

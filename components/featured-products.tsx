@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react'
 const products = [
   {
     id: 1,
-    name: 'Ovos Premium',
+    name: 'Ovos',
     image: '/images/card-egg.png',
     description: 'Ovos frescos e naturais de alta qualidade nutricional',
     features: ['Sem pesticidas', 'Colesterol reduzido', 'Sabor excepcional'],
