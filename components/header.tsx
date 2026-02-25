@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-
+import Image from 'next/image'
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -22,7 +22,11 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <div className="w-40 h-20 flex items-center justify-center  transition-shadow duration-300">
-              <img className="text-white font-bold text-lg" src='/images/logo.png'/>
+              <Image 
+                className="text-white font-bold text-lg" 
+                src='/images/logo.png'
+                alt='logo'
+                />
             </div>
           </Link>
 
