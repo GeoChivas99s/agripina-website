@@ -26,8 +26,8 @@ export default function Header() {
                 className="text-white font-bold text-lg" 
                 src='/images/logo.png'
                 alt='logo'
-                width={5}
-                height={5}
+                width={120}
+                height={65}
 
                 />
             </div>
