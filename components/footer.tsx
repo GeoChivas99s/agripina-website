@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="bg-foreground text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Content */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
@@ -112,17 +112,19 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
 
+          {/* Logo Selo feito em Angola */}
         <div className="w-40 flex items-center justify-center">
           <Image
             src="/images/SeloSFA.png"
-            alt="Tecnologia AGripina"
+            alt="Feito em Angola"
             width={5}
             height={5}
             className="w-full h-auto object-cover"
           />
         </div>
+        </div>
+
         {/* Divider */}
         <div className="border-top border-white/10 mb-8" />
 
