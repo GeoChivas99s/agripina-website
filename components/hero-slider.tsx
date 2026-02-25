@@ -31,7 +31,7 @@ export default function HeroSlider() {
 
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length)
-    }, 1200)
+    }, 2200)
 
     return () => clearInterval(timer)
   }, [isAutoplay])
